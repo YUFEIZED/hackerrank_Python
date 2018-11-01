@@ -8,11 +8,11 @@ import sys
 
 def changeToDict(listIn):
     dictOut = {}
-    for charI in listIn:
-        if charI in dictOut:
-            dictOut[charI] += 1
+    for charIn in listIn:
+        if charIn in dictOut:
+            dictOut[charIn] += 1
         else:
-            dictOut[charI] = 1
+            dictOut[charIn] = 1
     return dictOut
 
 def checkDict(dictNote, dictMagazine):
